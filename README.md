@@ -1,5 +1,6 @@
 # EasyReading
 
+## Descripción
 EasyReading (ER) es una aplicación móvil que clasifica textos según su dificultad. Esta clasificación se hace en base a la clasificación europea de idiomas: A1, A2, B1, B2, C1 y C2, pero ha sido simplificada en A, B, C.
 ER está destinada a cualquier persona con dificultades de lectura o comprensión lectora.
 
@@ -10,3 +11,10 @@ En nuestro caso se ha hecho un análisis previo de muchos textos de diferentes n
 - Número de letras / palabra
 - Porcentaje de verbos / frase
 - Verbos principales / verbos
+
+
+## Instalación
+
+1. Descárgate el repositorio en tu disco duro local.
+2. Abre el proyecto /platforms/iod con XCode o el proyecto /platforms/android con Android Studio.
+3. Ejecuta el proyecto.
