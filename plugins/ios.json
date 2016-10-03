@@ -1,0 +1,36 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.basetis.EasyReading"
+        },
+        "com.jcesarmobile.filepicker": {
+            "PACKAGE_NAME": "com.basetis.EasyReading"
+        },
+        "cordova-plugin-filepath": {
+            "PACKAGE_NAME": "com.basetis.EasyReading"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.basetis.EasyReading"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.basetis.EasyReading"
+        },
+        "com.megster.cordova.FileChooser": {
+            "PACKAGE_NAME": "com.basetis.EasyReading"
+        },
+        "com.verso.cordova.clipboard": {
+            "PACKAGE_NAME": "com.basetis.EasyReading"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.basetis.EasyReading"
+        }
+    },
+    "dependent_plugins": {}
+}
