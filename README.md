@@ -16,5 +16,5 @@ En nuestro caso se ha hecho un análisis previo de muchos textos de diferentes n
 ## Instalación
 
 1. Descárgate el repositorio en tu disco duro local.
-2. Abre el proyecto /platforms/iod con XCode o el proyecto /platforms/android con Android Studio.
+2. Abre el proyecto /platforms/ios con XCode o el proyecto /platforms/android con Android Studio.
 3. Ejecuta el proyecto.
