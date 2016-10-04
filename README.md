@@ -31,6 +31,6 @@ EasyReading was developed in the “PhoneGap” technology which allows it to be
 ## Installation
 
 1. Download the repository on your local hard drive.
-2. Install and run cordova "cordova prepare" within the project folder.
+2. Install cordova and run "cordova prepare" within the project folder.
 3. Open the project /platforms/ios with XCode or /platforms/android in Android Studio.
 4. Run the project.
