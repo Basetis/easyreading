@@ -1,21 +1,36 @@
 # EasyReading
 
-## Descripción
-EasyReading (ER) es una aplicación móvil que clasifica textos según su dificultad. Esta clasificación se hace en base a la clasificación europea de idiomas: A1, A2, B1, B2, C1 y C2, pero ha sido simplificada en A, B, C.
-ER está destinada a cualquier persona con dificultades de lectura o comprensión lectora.
+## PITCH
+Know the difficulty level of your text with only one click.
 
-Para poder clasificar los textos por niveles, ER hace uso del Machine Learning, que es una rama de la Inteligencia Artificial que permite crear programas capaces de reconocer patrones o clasificar en base a un aprendizaje anterior.
+## DESCRIPTION
+EasyReading is a mobile app that classifies text based on its difficulty. It uses the European standard: A1, A2, B1, B2, C1 and C2, but simplified to only three levels: A, B or C.
 
-En nuestro caso se ha hecho un análisis previo de muchos textos de diferentes niveles. A partir de este análisis se pueden extraer varias características que serán usadas para enseñar al algoritmo a clasificar textos. Algunas de estas características son:
-- Número de palabras / frase
-- Número de letras / palabra
-- Porcentaje de verbos / frase
-- Verbos principales / verbos
+The app allows the user to classify texts in Spanish. In future releases it will be able to recognize the language of the text and classify texts written in Spanish, Catalan and English. 
 
+Target users of the app are people with reading, learning and/or other disabilities.
 
-## Instalación
+For text classification, the app uses Machine Learning (ML), which is a subfield of Artificial Intelligence. ML is used to create programs that are able to recognize patterns and/or classify texts using some previously-learned knowledge. 
 
-1. Descárgate el repositorio en tu disco duro local.
-2. Instalar cordova y ejecutar "cordova prepare" dentro de la carpeta del proyecto.
-3. Abre el proyecto /platforms/ios con XCode o el proyecto /platforms/android con Android Studio.
-4. Ejecuta el proyecto.
+In this case, it has analyzed some texts tagged with their difficulties. As a part of this analysis some metrics have been extracted from the texts and then used to train the program to classify new texts. Some of the extracted metrics are:
+- words per sentence average
+- letters per word average
+- percentage of words of every grammatical category
+- main verbs vs auxiliary verbs ratio
+
+The app has only a few different screens which simplify its usage. The steps to be followed to classify text are:
+1. Select some text from 1 of 3 possible sources
+      - From a URL
+      - From an attached file
+      - From written text
+2. Press “Process Text”
+3. The App shows the user the difficulty level of the text
+
+EasyReading was developed in the “PhoneGap” technology which allows it to be used in both Android or iOS devices.
+
+## INSTALLATION
+
+1. Download the repository on your local hard drive.
+2. Install and run cordova "cordova prepare" within the project folder.
+3. Open the project /platforms/ios with XCode or /platforms/android in Android Studio.
+4. Run the project.
