@@ -1,9 +1,9 @@
 # EasyReading
 
-## PITCH
+## Pitch
 Know the difficulty level of your text with only one click.
 
-## DESCRIPTION
+## Description
 EasyReading is a mobile app that classifies text based on its difficulty. It uses the European standard: A1, A2, B1, B2, C1 and C2, but simplified to only three levels: A, B or C.
 
 The app allows the user to classify texts in Spanish. In future releases it will be able to recognize the language of the text and classify texts written in Spanish, Catalan and English. 
@@ -28,7 +28,7 @@ The app has only a few different screens which simplify its usage. The steps to 
 
 EasyReading was developed in the “PhoneGap” technology which allows it to be used in both Android or iOS devices.
 
-## INSTALLATION
+## Installation
 
 1. Download the repository on your local hard drive.
 2. Install and run cordova "cordova prepare" within the project folder.
