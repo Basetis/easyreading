@@ -16,5 +16,6 @@ En nuestro caso se ha hecho un análisis previo de muchos textos de diferentes n
 ## Instalación
 
 1. Descárgate el repositorio en tu disco duro local.
-2. Abre el proyecto /platforms/ios con XCode o el proyecto /platforms/android con Android Studio.
-3. Ejecuta el proyecto.
+2. Instalar cordova y ejecutar "cordova prepare" dentro de la carpeta del proyecto.
+3. Abre el proyecto /platforms/ios con XCode o el proyecto /platforms/android con Android Studio.
+4. Ejecuta el proyecto.
